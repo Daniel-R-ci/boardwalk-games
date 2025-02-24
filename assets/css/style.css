@@ -17,7 +17,8 @@
 
 /* Global Styles */
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+    padding-top: 52px; /* Push content down under fixed navbar */
 }
 
 h1,
@@ -42,8 +43,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* prevent navbar overlap */
 }
 
 .highlight-text{
