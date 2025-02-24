@@ -110,6 +110,7 @@ h2 {
     border: none;
 }
 
+
 /* Footer / contact */
 #contact {
     background-color: var(--primary-color);
@@ -188,3 +189,11 @@ h2 {
         min-height: 195px;
     }
 }
+
+/* grid visualisation CSS for testing */
+
+/*.container,
+.col-12, .col-lg-4, .col-lg-8{
+    border: 2px solid white;
+    background-color: lightgray;
+}*/
