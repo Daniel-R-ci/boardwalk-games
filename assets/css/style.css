@@ -128,13 +128,15 @@ h2 {
 
 #contact i {
     color: var(--secondary-color);
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     margin-right: 15px;
 }
 
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -190,10 +192,3 @@ h2 {
     }
 }
 
-/* grid visualisation CSS for testing */
-
-/*.container,
-.col-12, .col-lg-4, .col-lg-8{
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
