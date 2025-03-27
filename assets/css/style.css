@@ -25,9 +25,11 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
-
 }
+
+
 
 h1,
 h2 {
